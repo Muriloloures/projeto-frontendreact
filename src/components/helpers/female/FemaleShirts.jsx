@@ -15,9 +15,9 @@ export const FemaleShirts = ({ product }) => {
         <p>{product.name}</p>
         <p>R${product.price},00</p>
       </div>
-      <button onClick={() => addToCart(product.id)}>
-        Adicionar ao carrinho {cartItemAmount > 0 && <>({cartItemAmount})</>}
-      </button>
+        <button onClick={() => addToCart(product.id)}>
+          Adicionar ao carrinho {cartItemAmount > 0 && <>({cartItemAmount})</>}
+        </button>
     </ContainerFemale>
   )
 }

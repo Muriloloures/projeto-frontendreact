@@ -6,6 +6,7 @@ export const MaleShirts = ({ product }) => {
   const {cart, addToCart} = useContext(ShopContext)
 
   const cartItemAmount = cart[product.id]
+  
 
   return (
     <ContainerMale>
