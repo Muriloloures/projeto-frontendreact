@@ -14,6 +14,7 @@ const getDefaultCart = () => {
 
 
 export const ShopContextProvider = ({ children }) => {
+  
   const [openModal, setOpenModal] = useState(false)
 
   const [cart, setCart] = useState(getDefaultCart())
